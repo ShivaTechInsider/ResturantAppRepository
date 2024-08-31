@@ -1,0 +1,113 @@
+.dishItemListItemBg {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.descLeftBgCon {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.vegImage {
+  width: 35px;
+  height: 35px;
+  border: 2px solid green;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vegCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+.nonVegImage {
+  width: 35px;
+  height: 35px;
+  border: 2px solid rgb(79, 3, 3);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nonVegCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(87, 7, 7);
+}
+.dishItemDescContainer {
+  /* padding: 10px; */
+  margin-left: 10px;
+}
+
+.dishItemName {
+  font-size: 22px;
+}
+.dishCurrencyAndPrice {
+  color: black;
+  font-weight: bold;
+}
+.dishDesc {
+  color: gray;
+}
+.customizationBluePara {
+  color: blue;
+  font-size: 20px;
+}
+.btnsBgContainer {
+  background-color: green;
+  border-width: 0px;
+  border-radius: 8px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.minusBtn {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.quantity {
+  color: white;
+  font-size: 20px;
+}
+.plusBtn {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.caloriesImageBgContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-right: 20px; */
+}
+.caloriesClass {
+  font-size: 18px;
+  color: orange;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.dishImageStyle {
+  width: 130px;
+  height: 130px;
+}
+.customizationRedPara {
+  color: red;
+  font-size: 20px;
+}

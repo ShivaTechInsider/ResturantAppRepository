@@ -1,0 +1,10 @@
+.CategoryItemListStyle {
+  list-style-type: none;
+}
+.categoryItemBtn{
+  border: none;
+  border-width: 0px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
